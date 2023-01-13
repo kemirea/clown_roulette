@@ -1,4 +1,4 @@
-from roulette.character import Character, CharacterClass
+from character import Character, CharacterClass
 
 
 class Player:

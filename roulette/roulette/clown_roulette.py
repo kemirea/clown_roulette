@@ -1,8 +1,8 @@
 import copy
 import random
 
-from roulette.character import Character
-from roulette.player import Player, SPOON, DEREK, HAN, JIN, GRETER, JOHN
+from character import Character
+from player import Player, SPOON, DEREK, HAN, JIN, GRETER, JOHN
 
 CLOWN_GROUP_SIZE = 4
 
