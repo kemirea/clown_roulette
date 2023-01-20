@@ -118,8 +118,8 @@ def randomize_groups(players: [Player]):
                 _working_player_list.remove(_player)
         # 9. Repeat until fewer than required players remain.
 
-    print(f"\nGroup list:")
-    for _group in groups:
+    for group_number, _group in enumerate(groups, start=1):
+        print(f"\nGroup {group_number}:")
         _print_characters(_group)
         print("\n")
 
